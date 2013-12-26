@@ -1,3 +1,5 @@
+#define GLUT_DISABLE_ATEXIT_HACK
+
 #include <GL/glut.h>
 
 #include <stdlib.h>
@@ -364,7 +366,7 @@ int main(int argc, char *argv[])
     int i,j;
 
     //Abrimos la imagen
-    img = Image("test5.bmp");  
+    img = Image("images/imagen-conpadding.bmp");  
    
    //Para comprobar la escritura de la imagen, modificamos la imagen recien abierta
    // y le sacamos el negativo a una seccion
@@ -380,7 +382,7 @@ int main(int argc, char *argv[])
     glutInitWindowPosition(10,10);
     
 
-    glutCreateWindow("Proyecto Final - Sofia Flores Hernandez");
+    glutCreateWindow("openImageUG");
 
    
     glutDisplayFunc(display);

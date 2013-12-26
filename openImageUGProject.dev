@@ -1,18 +1,18 @@
 [Project]
-FileName=ProyectoFinal.dev
-Name=ProyectoFinal
+FileName=openImageUGProject.dev
+Name=openImageUGProject
 UnitCount=1
 Type=1
 Ver=1
 ObjFiles=
-Includes=
-Libs=
+Includes=C:\Dev-Cpp\include;C:\Dev-Cpp\include\GL
+Libs=C:\Dev-Cpp\lib
 PrivateResource=
 ResourceIncludes=
 MakeIncludes=
-Compiler=-DFREEGLUT_STATIC_@@_
-CppCompiler=-DFREEGLUT_STATIC_@@_
-Linker=-lfreeglut -lglu32 -lopengl32 -lwinmm -lgdi32_@@_
+Compiler=_@@_
+CppCompiler=_@@_
+Linker=-lglut32 -lglu32 -lopengl32 -lwinmm -lgdi32_@@_
 IsCpp=1
 Icon=
 ExeOutput=
@@ -30,9 +30,9 @@ CompilerSet=0
 CompilerSettings=1000000000000001000000
 
 [Unit1]
-FileName=ProyectoFinal.cpp
+FileName=openImageUG.cpp
 CompileCpp=1
-Folder=
+Folder=ProyectoFinal
 Compile=1
 Link=1
 Priority=1000
